@@ -1,0 +1,1406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AL Rahman Dental Center | Luxury & Modern Dentistry</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="#" class="logo" aria-label="AL Rahman Dental Center Home">
+            <img src="images/logo.jpg" alt="AL Rahman Dental Center Logo" />
+            <div class="logo-text">
+              <span class="brand-title">AL Rahman</span>
+              <span class="brand-subtitle">Dental Center</span>
+            </div>
+          </a>
+
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#specialists">Doctors</a></li>
+            <li><a href="#conclusion">Contact</a></li>
+
+            <!-- Mobile CTA -->
+            <li class="nav-mobile-only">
+              <a
+                href="#conclusion"
+                class="appointment-btn appointment-btn-mobile"
+              >
+                Book Appointment
+              </a>
+            </li>
+          </ul>
+
+          <!-- Changed '#booking' to '#conclusion' -->
+          <a href="#conclusion" class="appointment-btn">Book Appointment</a>
+
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="navLinks"
+          >
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+        </nav>
+      </div>
+      <div class="nav-overlay" id="navOverlay"></div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-container">
+          <!-- LEFT COLUMN: Brand Narrative & Action -->
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="badge-dot"></span>
+              <span class="badge-text">Excellence in Modern Dentistry</span>
+            </div>
+
+            <h1 class="hero-title">
+              Crafting <span class="italic-serif">Timeless</span> Smiles With
+              Artistic Precision.
+            </h1>
+
+            <p class="hero-description">
+              We combine advanced dental technology with compassionate care to
+              help every patient achieve a healthier, more confident smile in a
+              calm and comfortable environment.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#conclusion" class="btn-primary">
+                <span>Book Consultation</span>
+                <svg
+                  class="btn-arrow"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="#services" class="btn-secondary">
+                <span>Explore Services</span>
+              </a>
+            </div>
+
+            <!-- Trust Indicators -->
+            <div class="hero-trust">
+              <div class="trust-avatars">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
+                  alt="Satisfied Patient"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+                  alt="Satisfied Patient"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+                  alt="Satisfied Patient"
+                />
+              </div>
+
+              <div class="trust-text">
+                <div class="trust-stars" aria-label="5 out of 5 stars">
+                  ★★★★★
+                </div>
+                <p>
+                  Trusted by <strong>patients</strong> and
+                  <strong>families</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN: Architectural Visual Frame -->
+          <div class="hero-visual">
+            <div class="ambient-glow"></div>
+            <div class="decorative-ring"></div>
+
+            <!-- Main Circular Frame -->
+            <div class="hero-image-wrapper">
+              <img
+                src="images/clinic.png"
+                alt="Al Rahman Dental Clinic"
+                class="hero-main-img"
+              />
+            </div>
+
+            <!-- Floating Glass Card 1: Rating -->
+            <div class="floating-card card-rating">
+              <div class="card-icon gold-star">★</div>
+              <div class="card-data">
+                <span class="card-title">5.0 ★ Google Rating</span>
+                <span class="card-subtitle">Trusted Reviews</span>
+              </div>
+            </div>
+
+            <!-- Floating Glass Card 2: Tech -->
+            <div class="floating-card card-tech">
+              <div class="card-icon tech-icon">✦</div>
+              <div class="card-data">
+                <span class="card-title">Advanced Technology</span>
+                <span class="card-subtitle">Modern Digital Dentistry</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-container">
+          <!-- LEFT COLUMN: Editorial Narrative & Philosophy -->
+          <div class="about-content">
+            <div class="about-badge">
+              <span class="badge-dot"></span>
+              <span class="badge-text">About AL Rahman</span>
+            </div>
+
+            <h2 class="about-title">
+              Where
+              <span class="italic-serif">Modern Dentistry</span> Meets Genuine
+              Patient Care.
+            </h2>
+
+            <p class="about-description">
+              At AL Rahman Dental Center, we combine modern technology with
+              compassionate care to create a comfortable dental experience for
+              every patient. Our team focuses on long-term oral health while
+              ensuring every visit is calm, transparent, and personalized.
+            </p>
+
+            <!-- Founder Quote Box -->
+            <blockquote class="about-quote">
+              <p>
+                "Every patient deserves honest advice, gentle care, and
+                treatment focused on lasting oral health."
+              </p>
+              <cite>AL Rahman Dental Center</cite>
+            </blockquote>
+
+            <!-- Minimal Statistics Strip -->
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number"
+                  >15<span class="stat-symbol">+</span></span
+                >
+                <span class="stat-label">Years of Excellence</span>
+              </div>
+
+              <div class="stat-divider"></div>
+
+              <div class="stat-item">
+                <span class="stat-number"
+                  >70<span class="stat-symbol">+</span></span
+                >
+                <span class="stat-label">Google Reviews</span>
+              </div>
+
+              <div class="stat-divider"></div>
+
+              <div class="stat-item">
+                <span class="stat-number">5.0★</span>
+                <span class="stat-label">Google Rating</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN: Asymmetrical Visual Composition -->
+          <div class="about-visual">
+            <div class="about-architectural-frame">
+              <div class="about-image-wrapper">
+                <img
+                  src="images/dental-clinic.png"
+                  alt="Al Rahman Dental Center Modern Interior & Suite"
+                  class="about-main-img"
+                />
+              </div>
+            </div>
+
+            <!-- Floating Glass Card: Clinical Mastery -->
+            <div class="floating-card about-card-mastery">
+              <div class="card-icon tech-icon">✦</div>
+              <div class="card-data">
+                <span class="card-title">Modern Treatment Rooms</span>
+                <span class="card-subtitle">Designed for Patient Comfort</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section">
+      <div class="container">
+        <!-- SECTION HEADER -->
+        <div class="services-header">
+          <div class="services-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Specialized Dental Care</span>
+          </div>
+
+          <h2 class="services-title">
+            Exceptional Dentistry,
+            <span class="italic-serif">Designed</span>
+            for Lifelong Smiles.
+          </h2>
+
+          <p class="services-description">
+            Led by experienced specialists, we provide preventive, restorative,
+            cosmetic, and orthodontic treatments using modern technology and
+            personalized care for every stage of your smile.
+          </p>
+        </div>
+
+        <!-- SERVICES GRID -->
+        <div class="services-bento-grid">
+          <!-- CARD 1 -->
+          <article class="service-card featured">
+            <div class="card-ambient-glow"></div>
+            <div class="service-card-top">
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-microscope"></i>
+              </div>
+              <span class="flagship-tag">Signature Specialty</span>
+            </div>
+
+            <div class="service-card-body">
+              <h3 class="service-card-title">
+                Premium Microscopic Endodontics
+              </h3>
+              <p class="service-card-desc">
+                Advanced microscope-assisted root canal treatment focused on
+                preserving natural teeth with exceptional precision, comfort,
+                and long-term success.
+              </p>
+            </div>
+
+            <div class="service-card-footer">
+              <a href="#conclusion" class="service-link">
+                <span>Explore Treatment</span>
+                <i class="fa-solid fa-arrow-right service-arrow"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="service-card">
+            <div class="card-ambient-glow"></div>
+            <div class="service-card-top">
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-teeth"></i>
+              </div>
+            </div>
+
+            <div class="service-card-body">
+              <h3 class="service-card-title">Braces & Orthodontics</h3>
+              <p class="service-card-desc">
+                Straighten your smile with modern braces and clear aligner
+                treatments designed for improved function, comfort, and lasting
+                confidence.
+              </p>
+            </div>
+
+            <div class="service-card-footer">
+              <a href="#conclusion" class="service-link">
+                <span>Learn More</span>
+                <i class="fa-solid fa-arrow-right service-arrow"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="service-card">
+            <div class="card-ambient-glow"></div>
+            <div class="service-card-top">
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-teeth-open"></i>
+              </div>
+            </div>
+
+            <div class="service-card-body">
+              <h3 class="service-card-title">Orthodontics</h3>
+              <p class="service-card-desc">
+                Discreet clear aligner therapy engineered to correct alignment
+                and harmonize bite dynamics with absolute comfort.
+              </p>
+            </div>
+
+            <div class="service-card-footer">
+              <a href="#conclusion" class="service-link">
+                <span>Learn More</span>
+                <i class="fa-solid fa-arrow-right service-arrow"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 4 -->
+          <article class="service-card featured">
+            <div class="card-ambient-glow"></div>
+            <div class="service-card-top">
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-tooth"></i>
+              </div>
+              <span class="flagship-tag">Signature Specialty</span>
+            </div>
+
+            <div class="service-card-body">
+              <h3 class="service-card-title">Dental Implants</h3>
+              <p class="service-card-desc">
+                Permanent, bio-compatible tooth replacement powered by
+                computer-guided 3D imaging and micro-surgical precision for
+                uncompromised structural stability.
+              </p>
+            </div>
+
+            <div class="service-card-footer">
+              <a href="#conclusion" class="service-link">
+                <span>Explore Treatment</span>
+                <i class="fa-solid fa-arrow-right service-arrow"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 5 -->
+          <article class="service-card">
+            <div class="card-ambient-glow"></div>
+            <div class="service-card-top">
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-microscope"></i>
+              </div>
+            </div>
+
+            <div class="service-card-body">
+              <h3 class="service-card-title">Microscopic Root Canal Therapy</h3>
+              <p class="service-card-desc">
+                Pain-free microscopic endodontic therapy dedicated to preserving
+                natural tooth structures with absolute clinical safety.
+              </p>
+            </div>
+
+            <div class="service-card-footer">
+              <a href="#conclusion" class="service-link">
+                <span>Learn More</span>
+                <i class="fa-solid fa-arrow-right service-arrow"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 6 -->
+          <article class="service-card featured">
+            <div class="card-ambient-glow"></div>
+            <div class="service-card-top">
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-crown"></i>
+              </div>
+              <span class="flagship-tag">Patient Favorite</span>
+            </div>
+
+            <div class="service-card-body">
+              <h3 class="service-card-title">Aesthetic Crowns & Bridges</h3>
+              <p class="service-card-desc">
+                High-quality aesthetic crowns and bridges designed to restore
+                strength, function, and a naturally beautiful smile using
+                durable modern materials.
+              </p>
+            </div>
+
+            <div class="service-card-footer">
+              <a href="#conclusion" class="service-link">
+                <span>Explore Treatment</span>
+                <i class="fa-solid fa-arrow-right service-arrow"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGY & WORKFLOW SECTION -->
+    <section id="technology" class="tech-section">
+      <div class="container">
+        <div class="tech-header">
+          <div class="tech-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Modern Dental Technology</span>
+          </div>
+
+          <h2 class="tech-title">
+            Precision Dentistry,
+            <span class="italic-serif">Powered</span> by Modern Technology.
+          </h2>
+
+          <p class="tech-description">
+            At AL Rahman Dental Center, we combine advanced equipment with
+            experienced clinical care to deliver accurate diagnoses, comfortable
+            treatments, and long-lasting results for every patient.
+          </p>
+        </div>
+
+        <div class="tech-workflow-grid">
+          <div class="workflow-backbone"></div>
+
+          <!-- CARD 01 -->
+          <article class="tech-card scan-card">
+            <div class="card-ambient-glow"></div>
+            <div class="tech-card-top">
+              <div class="tech-number-group">
+                <span class="tech-number">01</span>
+                <span class="tech-phase-tag">Diagnosis</span>
+              </div>
+              <div class="tech-icon-wrapper">
+                <i class="fa-solid fa-x-ray"></i>
+              </div>
+            </div>
+
+            <div class="tech-card-body">
+              <h3 class="tech-card-title">Digital X-Ray & Diagnosis</h3>
+              <p class="tech-card-desc">
+                Our digital X-ray technology provides clear, detailed images
+                with reduced radiation exposure, helping our dentists diagnose
+                problems accurately and create effective treatment plans.
+              </p>
+            </div>
+
+            <div class="tech-card-footer">
+              <div class="tech-meta-spec">
+                <span class="spec-label">Technology</span>
+                <span class="spec-value">Digital Radiography</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 02 -->
+          <article class="tech-card design-card featured">
+            <div class="card-ambient-glow"></div>
+            <div class="tech-card-top">
+              <div class="tech-number-group">
+                <span class="tech-number">02</span>
+                <span class="tech-phase-tag">Treatment</span>
+              </div>
+              <div class="tech-icon-wrapper">
+                <i class="fa-solid fa-microscope"></i>
+              </div>
+            </div>
+
+            <div class="tech-card-body">
+              <h3 class="tech-card-title">Microscopic Precision Dentistry</h3>
+              <p class="tech-card-desc">
+                Using advanced dental microscopes, our specialists perform
+                complex procedures with enhanced visibility, greater precision,
+                and maximum preservation of healthy tooth structure.
+              </p>
+            </div>
+
+            <div class="tech-card-footer">
+              <div class="tech-meta-spec">
+                <span class="spec-label">Specialty</span>
+                <span class="spec-value">Microscope-Assisted Treatment</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 03 -->
+          <article class="tech-card deliver-card">
+            <div class="card-ambient-glow"></div>
+            <div class="tech-card-top">
+              <div class="tech-number-group">
+                <span class="tech-number">03</span>
+                <span class="tech-phase-tag">Care</span>
+              </div>
+              <div class="tech-icon-wrapper">
+                <i class="fa-solid fa-user-doctor"></i>
+              </div>
+            </div>
+
+            <div class="tech-card-body">
+              <h3 class="tech-card-title">Personalized Follow-Up Care</h3>
+              <p class="tech-card-desc">
+                Every treatment is supported by personalized follow-up
+                appointments and expert guidance to ensure optimal healing,
+                lasting results, and a healthy smile for years to come.
+              </p>
+            </div>
+
+            <div class="tech-card-footer">
+              <div class="tech-meta-spec">
+                <span class="spec-label">Patient Care</span>
+                <span class="spec-value">Long-Term Oral Health</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="tech-closing-container">
+          <blockquote class="tech-closing-quote">
+            "Modern technology is valuable only when paired with experienced
+            hands and compassionate care."
+          </blockquote>
+
+          <a href="#conclusion" class="tech-closing-cta">
+            <span>Book Your Consultation</span>
+            <svg
+              class="cta-arrow"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEFORE & AFTER SMILE TRANSFORMATIONS SECTION -->
+    <section id="transformations" class="transformations-section">
+      <div class="section-atmosphere"></div>
+
+      <div class="container">
+        <div
+          class="transformations-header reveal-item"
+          style="--reveal-delay: 0s"
+        >
+          <div class="transformations-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Smile Transformations</span>
+          </div>
+
+          <h2 class="transformations-title">
+            Beautiful Smiles,
+            <span class="italic-serif">Created</span> with Precision.
+          </h2>
+
+          <p class="transformations-description">
+            Every smile tells a unique story. Explore one of our smile
+            transformation cases and discover how personalized treatment
+            planning, advanced techniques, and attention to detail can restore
+            both confidence and oral health.
+          </p>
+        </div>
+
+        <div
+          class="transformation-editorial-grid reveal-item"
+          style="--reveal-delay: 0.15s"
+        >
+          <div class="comparison-column">
+            <div
+              class="comparison-container single-image-container"
+              id="comparisonContainer"
+            >
+              <img
+                src="images/teeth.png"
+                alt="Smile transformation completed at AL Rahman Dental Center"
+                width="1200"
+                height="900"
+                loading="lazy"
+                decoding="async"
+                class="transformation-image"
+              />
+            </div>
+
+            <div class="comparison-caption">
+              <span>
+                Every treatment is customized to achieve healthy,
+                natural-looking results.
+              </span>
+            </div>
+          </div>
+
+          <div
+            class="transformation-meta-panel reveal-item"
+            style="--reveal-delay: 0.3s"
+          >
+            <div class="meta-panel-header">
+              <span class="meta-category"> Featured Smile Transformation </span>
+              <h3 class="meta-title">Personalized Smile Rehabilitation</h3>
+              <p class="meta-summary">
+                This patient received a customized treatment plan designed to
+                improve both dental function and aesthetics. Every stage of care
+                was planned with precision to achieve a healthy, balanced, and
+                natural-looking smile.
+              </p>
+            </div>
+
+            <div class="meta-data-list">
+              <div class="meta-item">
+                <span class="meta-key">Patient Concern</span>
+                <span class="meta-val">
+                  Discolored, Worn & Misaligned Teeth
+                </span>
+              </div>
+
+              <div class="meta-item">
+                <span class="meta-key">Treatment</span>
+                <span class="meta-val">
+                  Personalized Comprehensive Dental Care
+                </span>
+              </div>
+
+              <div class="meta-item">
+                <span class="meta-key">Result</span>
+                <span class="meta-val">
+                  Improved Smile, Function & Confidence
+                </span>
+              </div>
+
+              <div class="meta-item">
+                <span class="meta-key">Approach</span>
+                <span class="meta-val">
+                  Modern Technology with Experienced Clinical Care
+                </span>
+              </div>
+            </div>
+
+            <div class="meta-panel-footer">
+              <a href="#conclusion" class="editorial-consult-btn">
+                <span>Book Your Consultation</span>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="transformations-trust-footer reveal-item"
+          style="--reveal-delay: 0.45s"
+        >
+          <p class="trust-statement">
+            Every smile transformation begins with careful diagnosis,
+            personalized planning, and a commitment to long-term oral health.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY PATIENTS CHOOSE AL RAHMAN -->
+    <section id="why-us" class="why-editorial-section">
+      <div class="editorial-atmosphere"></div>
+
+      <div class="container">
+        <div class="editorial-spread-grid">
+          <div
+            class="editorial-sticky-anchor reveal-item"
+            style="--reveal-delay: 0s"
+          >
+            <div class="editorial-badge">
+              <span class="badge-dot"></span>
+              <span class="badge-text">Why Choose AL Rahman Dental</span>
+            </div>
+
+            <h2 class="editorial-manifesto-title">
+              Exceptional Dentistry,
+              <span class="italic-serif">Centered</span> Around You.
+            </h2>
+
+            <p class="editorial-manifesto-intro">
+              At AL Rahman Dental Center, every patient is treated with genuine
+              care, clinical excellence, and complete transparency. From your
+              first consultation to your final result, our focus is creating a
+              comfortable experience built around your individual needs—not just
+              your treatment.
+            </p>
+
+            <div class="editorial-anchor-signature">
+              <span class="signature-label">Our Commitment</span>
+              <span class="signature-val">
+                Clinical Excellence &bull; Compassionate Care
+              </span>
+            </div>
+          </div>
+
+          <div class="editorial-narrative-column">
+            <article
+              class="narrative-block reveal-item"
+              style="--reveal-delay: 0.15s"
+            >
+              <div class="narrative-meta">
+                <span class="narrative-number">01</span>
+                <span class="narrative-category">Personalized Care</span>
+              </div>
+
+              <div class="narrative-content">
+                <h3 class="narrative-heading">
+                  Every Patient Receives Our Full Attention
+                </h3>
+                <p class="narrative-text">
+                  We believe quality dentistry takes time. Every appointment is
+                  carefully planned so our dentists can fully understand your
+                  concerns, explain your treatment options, and deliver care
+                  with complete attention to detail.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="narrative-block reveal-item"
+              style="--reveal-delay: 0.3s"
+            >
+              <div class="narrative-meta">
+                <span class="narrative-number">02</span>
+                <span class="narrative-category">Modern Technology</span>
+              </div>
+
+              <div class="narrative-content">
+                <h3 class="narrative-heading">
+                  Advanced Diagnosis, Clear Communication
+                </h3>
+                <p class="narrative-text">
+                  Using advanced digital diagnostics and modern dental
+                  equipment, we carefully assess your oral health before
+                  recommending treatment. Every procedure is explained clearly
+                  so you can make informed decisions with confidence.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="narrative-block reveal-item"
+              style="--reveal-delay: 0.45s"
+            >
+              <div class="narrative-meta">
+                <span class="narrative-number">03</span>
+                <span class="narrative-category">Comfort</span>
+              </div>
+
+              <div class="narrative-content">
+                <h3 class="narrative-heading">A Comfortable Experience</h3>
+                <p class="narrative-text">
+                  From our welcoming environment to our gentle treatment
+                  approach, we strive to make every visit calm, comfortable, and
+                  stress-free. Your comfort is always as important to us as your
+                  smile.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div
+          class="editorial-transition-footer reveal-item"
+          style="--reveal-delay: 0.6s"
+        >
+          <p class="editorial-transition-text">
+            Behind every healthy smile is a team dedicated to precision,
+            compassion, and lasting results. Meet the experienced dentists
+            leading your care.
+          </p>
+
+          <div class="editorial-transition-indicator" aria-hidden="true">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEET THE SPECIALISTS SECTION -->
+    <section id="specialists" class="specialists-section">
+      <div class="specialists-atmosphere"></div>
+
+      <div class="container">
+        <div class="specialists-header reveal-item" style="--reveal-delay: 0s">
+          <div class="specialists-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Meet Our Specialists</span>
+          </div>
+
+          <h2 class="specialists-title">
+            Dedicated Experts Behind
+            <span class="italic-serif">Every</span> Healthy Smile.
+          </h2>
+
+          <p class="specialists-description">
+            At AL Rahman Dental Center, our experienced specialists combine
+            advanced clinical expertise with a patient-first approach to deliver
+            comfortable, precise, and long-lasting dental care you can trust.
+          </p>
+        </div>
+
+        <div class="specialists-editorial-spread">
+          <!-- Doctor 01 -->
+          <article
+            class="specialist-editorial-item reveal-item"
+            style="--reveal-delay: 0.15s"
+          >
+            <div class="specialist-portrait-wrapper">
+              <div class="specialist-portrait-container">
+                <img
+                  src="images/doctor.png"
+                  alt="Dr. Haroon Asghar Ginai, Associate Professor of Operative Dentistry and Endodontics"
+                  width="1200"
+                  height="1500"
+                  loading="lazy"
+                  decoding="async"
+                  class="specialist-portrait"
+                />
+              </div>
+              <span class="specialist-index">01</span>
+            </div>
+
+            <div class="specialist-editorial-content">
+              <div class="specialist-meta-row">
+                <span class="specialist-specialization">
+                  Associate Professor of Operative Dentistry &amp; Endodontics
+                </span>
+                <span class="specialist-experience">
+                  Operative Dentistry &amp; Endodontics Specialist
+                </span>
+              </div>
+
+              <h3 class="specialist-name">Dr. Haroon Asghar Ginai</h3>
+
+              <blockquote class="specialist-philosophy">
+                "My priority is preserving your natural teeth whenever possible
+                through precise, evidence-based treatment that restores
+                function, relieves discomfort, and protects your smile for years
+                to come."
+              </blockquote>
+
+              <div class="specialist-accent-line"></div>
+            </div>
+          </article>
+
+          <!-- Doctor 02 -->
+          <article
+            class="specialist-editorial-item specialist-staggered reveal-item"
+            style="--reveal-delay: 0.3s"
+          >
+            <div class="specialist-portrait-wrapper">
+              <div class="specialist-portrait-container">
+                <img
+                  src="images/dr.png"
+                  alt="Dr. Mariyam Masood, BDS, FCPS Orthodontics, CHPE, Associate Professor at FMH College of Dentistry"
+                  width="1200"
+                  height="1500"
+                  loading="lazy"
+                  decoding="async"
+                  class="specialist-portrait"
+                />
+              </div>
+              <span class="specialist-index">02</span>
+            </div>
+
+            <div class="specialist-editorial-content">
+              <div class="specialist-meta-row">
+                <span class="specialist-specialization">
+                  BDS • FCPS Orthodontics • CHPE
+                </span>
+                <span class="specialist-experience">
+                  Associate Professor, FMH College of Dentistry
+                </span>
+              </div>
+
+              <h3 class="specialist-name">Dr. Mariyam Masood</h3>
+
+              <blockquote class="specialist-philosophy">
+                "Every smile is unique. My goal is to create healthy,
+                well-aligned smiles that improve oral function while giving
+                every patient the confidence to smile naturally."
+              </blockquote>
+
+              <div class="specialist-accent-line"></div>
+            </div>
+          </article>
+        </div>
+
+        <div
+          class="specialists-transition-footer reveal-item"
+          style="--reveal-delay: 0.45s"
+        >
+          <p class="transition-statement">
+            Experience dentistry guided by knowledge, precision, and genuine
+            care.
+          </p>
+
+          <div class="transition-indicator" aria-hidden="true">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PATIENT TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials-editorial-section">
+      <div class="testimonials-atmosphere" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="testimonials-header reveal-group">
+          <div
+            class="testimonials-badge reveal-item"
+            style="--reveal-delay: 0s"
+          >
+            <span class="badge-dot"></span>
+            <span class="badge-text">Patient Experiences</span>
+          </div>
+
+          <h2
+            class="testimonials-title reveal-item"
+            style="--reveal-delay: 0.1s"
+          >
+            Trusted by
+            <span class="italic-serif">Families</span>
+            Across Lahore.
+          </h2>
+
+          <p
+            class="testimonials-description reveal-item"
+            style="--reveal-delay: 0.2s"
+          >
+            Every smile tells a story. The experiences shared by our patients
+            reflect the compassionate care, professional expertise, and lasting
+            confidence that define every visit to AL Rahman Dental Center.
+          </p>
+        </div>
+
+        <div class="testimonials-editorial-spread">
+          <!-- REVIEW 1 -->
+          <article
+            class="testimonial-editorial-item reveal-group"
+            style="--reveal-delay: 0.15s"
+          >
+            <div class="testimonial-content-block">
+              <div class="editorial-item-header">
+                <span class="editorial-index">01</span>
+                <span class="treatment-tag"> Google Review • 5 ★ </span>
+              </div>
+
+              <div class="quote-wrapper">
+                <span class="editorial-quote-mark" aria-hidden="true">
+                  &ldquo;
+                </span>
+                <blockquote class="testimonial-quote">
+                  I recently visited AL Rahman Dental Center and had an
+                  outstanding experience. The staff was welcoming, the clinic
+                  was exceptionally clean, and the dentist explained every step
+                  of my treatment with great patience. I felt comfortable
+                  throughout the entire procedure and would highly recommend
+                  this clinic to anyone looking for quality dental care.
+                </blockquote>
+              </div>
+
+              <div class="testimonial-author-footer">
+                <div class="author-details">
+                  <h3 class="author-name">Google Verified Patient</h3>
+                  <span class="author-location"> Lahore • 5 Star Review </span>
+                </div>
+
+                <div class="testimonial-rating-indicator">
+                  <span class="rating-value"> ★★★★★ </span>
+                  <span class="rating-label"> Google Reviews </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- REVIEW 2 -->
+          <article
+            class="testimonial-editorial-item reveal-group"
+            style="--reveal-delay: 0.25s"
+          >
+            <div class="testimonial-content-block">
+              <div class="editorial-item-header">
+                <span class="editorial-index">02</span>
+                <span class="treatment-tag"> Google Review • 5 ★ </span>
+              </div>
+
+              <div class="quote-wrapper">
+                <span class="editorial-quote-mark" aria-hidden="true">
+                  &ldquo;
+                </span>
+                <blockquote class="testimonial-quote">
+                  Professional, caring, and highly skilled. The entire team made
+                  my treatment stress-free, and the results exceeded my
+                  expectations. I appreciate the honesty, attention to detail,
+                  and the friendly environment. Definitely one of the best
+                  dental clinics in Lahore.
+                </blockquote>
+              </div>
+
+              <div class="testimonial-author-footer">
+                <div class="author-details">
+                  <h3 class="author-name">Google Verified Patient</h3>
+                  <span class="author-location"> Lahore • 5 Star Review </span>
+                </div>
+
+                <div class="testimonial-rating-indicator">
+                  <span class="rating-value"> ★★★★★ </span>
+                  <span class="rating-label"> Google Reviews </span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div
+          class="testimonials-transition-footer reveal-item"
+          style="--reveal-delay: 0.35s"
+        >
+          <p class="testimonials-transition-statement">
+            Join hundreds of patients who have trusted AL Rahman Dental Center
+            with their smiles. Your journey to healthier, more confident teeth
+            starts with one appointment.
+          </p>
+
+          <div class="testimonials-transition-indicator" aria-hidden="true">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.25"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL INVITATION / CONCLUSION SECTION -->
+    <section id="conclusion" class="conclusion-editorial-section">
+      <div class="conclusion-atmosphere" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="conclusion-header reveal-item" style="--reveal-delay: 0s">
+          <div class="conclusion-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Begin Your Smile Journey</span>
+          </div>
+
+          <h2 class="conclusion-title">
+            Your smile deserves
+            <span class="italic-serif">expert care.</span>
+          </h2>
+
+          <p class="conclusion-subtitle">
+            Whether you're visiting for a routine dental check-up or planning a
+            complete smile transformation, our experienced team is here to
+            provide comfortable, personalized treatment with precision,
+            compassion, and long-term oral health in mind.
+          </p>
+        </div>
+
+        <div class="conclusion-directory-grid">
+          <div
+            class="conclusion-action-column reveal-item"
+            style="--reveal-delay: 0.15s"
+          >
+            <div class="action-card-inner">
+              <div class="action-card-header">
+                <span class="action-eyebrow"> Book Your Consultation </span>
+                <span class="action-status"> New Patients Welcome </span>
+              </div>
+
+              <h3 class="action-heading">Schedule Your Appointment</h3>
+
+              <p class="action-desc">
+                Every smile begins with a conversation. During your
+                consultation, we'll understand your concerns, explain your
+                treatment options clearly, and create a personalized dental care
+                plan that fits your goals.
+              </p>
+
+              <div class="action-buttons-wrapper">
+                <a href="#conclusion" class="editorial-primary-btn">
+                  <span>Book Appointment</span>
+                  <svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.25"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+
+                <a
+                  href="https://wa.me/923344130000"
+                  target="_blank"
+                  rel="noopener"
+                  class="editorial-secondary-link"
+                >
+                  <span>Chat on WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="conclusion-directory-column reveal-item"
+            style="--reveal-delay: 0.3s"
+          >
+            <div class="directory-block">
+              <span class="directory-category"> Clinic Address </span>
+              <p class="directory-text">
+                AL Rahman Dental Center<br />
+                XX DHA Phase 3,<br />
+                Khayaban-e-Iqbal,<br />
+                Lahore, Pakistan
+              </p>
+            </div>
+
+            <div class="directory-block">
+              <span class="directory-category"> Clinic Hours </span>
+              <p class="directory-text">
+                Monday – Saturday<br />
+                9:00 AM – 7:00 PM
+                <br /><br />
+                Sunday<br />
+                Closed
+              </p>
+            </div>
+
+            <div class="directory-block">
+              <span class="directory-category"> Contact </span>
+              <p class="directory-text">
+                <a href="tel:+923344130000" class="directory-contact-link">
+                  +92 334 413 0000
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="conclusion-footer-bridge reveal-item"
+          style="--reveal-delay: 0.45s"
+        >
+          <div class="bridge-hairline"></div>
+
+          <div class="bridge-metadata">
+            <span class="bridge-brand"> AL Rahman Dental Center </span>
+            <span class="bridge-divider">&bull;</span>
+            <span class="bridge-founded"> Est. 2012 </span>
+            <span class="bridge-divider">&bull;</span>
+            <span class="bridge-standard">
+              Compassion • Precision • Excellence
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL EDITORIAL MASTER FOOTER -->
+    <footer id="colophon" class="editorial-master-footer" role="contentinfo">
+      <div class="footer-atmosphere" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="footer-top-spread reveal-item">
+          <div class="footer-hairline-top" aria-hidden="true"></div>
+
+          <div class="footer-brand-block">
+            <span class="footer-brand-name"> AL Rahman Dental Center </span>
+            <span class="footer-philosophy">
+              Creating healthy, confident smiles through advanced dentistry,
+              compassionate care, and a commitment to excellence since 2012.
+            </span>
+          </div>
+        </div>
+
+        <div class="footer-main-grid">
+          <div class="footer-column reveal-item" style="--reveal-delay: 0.1s">
+            <span class="footer-col-eyebrow"> Explore </span>
+
+            <ul class="footer-nav-list">
+              <li><a href="#hero" class="footer-link">Home</a></li>
+              <li><a href="#about" class="footer-link">About Us</a></li>
+              <li>
+                <a href="#services" class="footer-link">Our Services</a>
+              </li>
+              <li>
+                <a href="#specialists" class="footer-link">Our Specialists</a>
+              </li>
+              <li>
+                <a href="#testimonials" class="footer-link">Patient Reviews</a>
+              </li>
+              <li><a href="#conclusion" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column reveal-item" style="--reveal-delay: 0.2s">
+            <span class="footer-col-eyebrow"> Contact Information </span>
+
+            <div class="footer-contact-stack">
+              <div class="contact-block-item">
+                <span class="contact-label"> Clinic Address </span>
+                <p class="contact-val">
+                  AL Rahman Dental Center<br />
+                  XX DHA Phase 3<br />
+                  Khayaban-e-Iqbal<br />
+                  Lahore, Pakistan
+                </p>
+              </div>
+
+              <div class="contact-block-item">
+                <span class="contact-label"> Phone </span>
+                <p class="contact-val">
+                  <a href="tel:+923344130000" class="footer-inline-link">
+                    +92 334 413 0000
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-column reveal-item" style="--reveal-delay: 0.3s">
+            <span class="footer-col-eyebrow"> Clinic Details </span>
+
+            <div class="footer-contact-stack">
+              <div class="contact-block-item">
+                <span class="contact-label"> Opening Hours </span>
+                <p class="contact-val">
+                  Monday – Saturday<br />
+                  9:00 AM – 7:00 PM
+                  <br /><br />
+                  Sunday<br />
+                  Closed
+                </p>
+              </div>
+
+              <div class="contact-block-item">
+                <span class="contact-label"> Connect With Us </span>
+
+                <div class="footer-social-links">
+                  <a
+                    href="https://www.instagram.com/alrahman.dental.dha.lahore/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                    class="social-link"
+                  >
+                    Instagram ↗
+                  </a>
+                  <span class="link-dot">&bull;</span>
+                  <a
+                    href="https://maps.app.goo.gl/ufvEf7agAdPgz12s8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Google Maps"
+                    class="footer-inline-link"
+                  >
+                    Google Maps ↗
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="footer-legal-spread reveal-item"
+          style="--reveal-delay: 0.4s"
+        >
+          <div class="footer-hairline"></div>
+
+          <div class="footer-legal-content">
+            <div class="legal-links">
+              <a href="#" class="footer-legal-link"> Privacy Policy </a>
+              <span class="legal-divider">&bull;</span>
+              <a href="#" class="footer-legal-link"> Terms & Conditions </a>
+              <span class="legal-divider">&bull;</span>
+              <span class="legal-copyright">
+                © 2012–2026 AL Rahman Dental Center. All Rights Reserved.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="footer-final-signature reveal-item"
+          style="--reveal-delay: 0.5s"
+        >
+          <p class="signature-quote">
+            Every smile tells a story. We're honored to be part of yours.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
